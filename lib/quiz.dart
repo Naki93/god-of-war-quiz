@@ -19,18 +19,26 @@ class _QuizState extends State<Quiz> {
     'In the Steeds of Time puzzle, what must you do to unlock the door?',
     'How do you defeat Perseus when he turns invisible?',
     'Which Titan helps Kratos?',
+    'What should you do with Prometheus to get the Rage of the Titans power?'
   ];
 
   List<List<String>> answers = [
     [
       'Pull both chains at the same time',
-      'Break the door with Barbarian Hammer'
+      'Break the door with Barbarian Hammer',
+      'Defeat all enemies first'
     ],
     [
       'Use the reflection from the water to spot him',
-      'Use the Amulet of the Fates to freeze him'
+      'Use the Amulet of the Fates to freeze him',
+      'Spam Cronos’ Rage until he reappears'
     ],
-    ['Gaia', 'Atlas'],
+    ['Gaia', 'Atlas', 'Zeus'],
+    [
+      'Push him into the fire to end his suffering',
+      'Set him free by breaking his chains',
+      'Use Blade of Olympus on him'
+    ]
   ];
 
   List<int> correctAnswers = [0, 0, 0]; // index of correct answer
